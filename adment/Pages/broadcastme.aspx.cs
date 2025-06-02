@@ -12,9 +12,7 @@ namespace adment.Pages
         {
             System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
 
-            // Your Twilio Account SID and Auth Token
-            const string accountSid = "";
-            const string authToken = "";
+        
 
             // Initialize the Twilio client
             TwilioClient.Init(accountSid, authToken);
@@ -22,8 +20,7 @@ namespace adment.Pages
 
         protected void btnSendWhatsApp_Click(object sender, EventArgs e)
         {
-            var accountSid = "";
-            var authToken = "";
+          
             TwilioClient.Init(accountSid, authToken);
 
             var messageOptions = new CreateMessageOptions(
