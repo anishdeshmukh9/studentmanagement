@@ -1,0 +1,105 @@
+﻿+++++<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adment.master.cs" Inherits="adment.Source.adment" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>@ADMENT</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   <style>
+
+       .body{
+           background-image:url("\imgdata\header\pexels-miguel-á-padriñán-19670.jpg");
+           background-color:darkgrey;
+      }
+   </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </link>
+
+
+   <script type="text/javascript">
+       function goBack() {
+           window.location.href = document.referrer;
+           return false; // Prevents the postback of the LinkButton
+
+           google.charts.load('current', { 'packages': ['corechart'] });
+
+       }
+
+
+
+   </script>
+
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+
+
+
+</head>
+<body>
+    <script type="text/javascript">
+    history.pushState(null, null, document.URL);
+    window.addEventListener('popstate', function () {
+        history.pushState(null, null, document.URL);
+    });
+    </script>
+    <form id="form1" runat="server">
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+    <asp:Panel ID="pnlHeader" runat="server" CssClass="navbar navbar-expand-lg navbar-dark header bg-dark">
+        <img src="../imgdata/header/admission.png" width="30px" height="30px" class="mr-2" />
+        <a class="navbar-brand" href="#">ADMENT</a>
+
+        <!-- Add your navigation links here  12-09-2023 -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <asp:HyperLink ID="hlHome" runat="server" CssClass="nav-link" Text="Home" NavigateUrl="/Pages/home.aspx"></asp:HyperLink>
+            </li>
+            <li class="nav-item">
+                <asp:HyperLink ID="hlAbout" runat="server" CssClass="nav-link" Text="About" NavigateUrl="/Pages/aboutUS.aspx"></asp:HyperLink>
+            </li>
+            <li class="nav-item">
+                <asp:HyperLink ID="hlContact" runat="server" CssClass="nav-link" Text="Contact" NavigateUrl="/Pages/contact.aspx"></asp:HyperLink>
+            </li>
+            <li class="nav-item">
+                <asp:HyperLink ID="hlregister" runat="server" CssClass="nav-link" Text="NEW Institute Register" NavigateUrl="/Pages/RegisterCLG.aspx"></asp:HyperLink>
+            </li>
+        </ul>
+
+   <li class="nav-item">
+    <asp:LinkButton ID="logoutbtn" CssClass="btn btn-warning" runat="server" OnClick="logout" Text="LOGOUT" />
+</li>
+
+
+        
+    </asp:Panel>
+</nav>
+
+
+        <div class="container mt-4">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Bootstrap Footer -->
+        <footer class="footer text-center py-2 bg-dark text-bg-secondary text-white p-3">
+
+
+
+
+
+            <div class="container">
+                &copy; 2023 ADMENT..😊 Developed By TYCO 23-24
+            </div>
+        </footer>
+
+        <!-- Add Bootstrap JS and jQuery scripts here (at the end of the body) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B96576C-4581-4E0F-89DE-D3855E60416B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>adment</RootNamespace>
+    <AssemblyName>adment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="JWT, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JWT.1.3.4\lib\3.5\JWT.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Twilio, Version=6.14.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Twilio.6.14.0\lib\net35\Twilio.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="a.aspx" />
+    <Content Include="imgdata\addstaff.jpg" />
+    <Content Include="imgdata\blaktik.png" />
+    <Content Include="imgdata\editprof.jpg" />
+    <Content Include="imgdata\greentik.png" />
+    <Content Include="imgdata\header\admission.png" />
+    <Content Include="imgdata\header\admin.png" />
+    <Content Include="imgdata\header\clglogo.png" />
+    <Content Include="imgdata\header\pexels-miguel-á-padriñán-19670.jpg" />
+    <Content Include="imgdata\staff\teacher.png" />
+    <Content Include="imgdata\staff\trac_activity.png" />
+    <Content Include="imgdata\trac_act.jpg" />
+    <Content Include="imgdata\update.png" />
+    <Content Include="Pages\aboutUS.aspx" />
+    <Content Include="Pages\addStaff.aspx" />
+    <Content Include="Pages\adminlogon.aspx" />
+    <Content Include="Pages\adminportal.aspx" />
+    <Content Include="Pages\broadcastme.aspx" />
+    <Content Include="Pages\contact.aspx" />
+    <Content Include="Pages\deletestaff.aspx" />
+    <Content Include="Pages\feedData.aspx" />
+    <Content Include="Pages\home.aspx" />
+    <Content Include="Pages\RegisterCLG.aspx" />
+    <Content Include="Pages\resetpass.aspx" />
+    <Content Include="Pages\teacherlogin.aspx" />
+    <Content Include="Pages\teacherpage.aspx" />
+    <Content Include="Pages\track_activity.aspx" />
+    <Content Include="Pages\updatestaff.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="a.aspx.cs">
+      <DependentUpon>a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="a.aspx.designer.cs">
+      <DependentUpon>a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\aboutUS.aspx.cs">
+      <DependentUpon>aboutUS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\aboutUS.aspx.designer.cs">
+      <DependentUpon>aboutUS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\addStaff.aspx.cs">
+      <DependentUpon>addStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\addStaff.aspx.designer.cs">
+      <DependentUpon>addStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\adminlogon.aspx.cs">
+      <DependentUpon>adminlogon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\adminlogon.aspx.designer.cs">
+      <DependentUpon>adminlogon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\adminportal.aspx.cs">
+      <DependentUpon>adminportal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\adminportal.aspx.designer.cs">
+      <DependentUpon>adminportal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\broadcastme.aspx.cs">
+      <DependentUpon>broadcastme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\broadcastme.aspx.designer.cs">
+      <DependentUpon>broadcastme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\deletestaff.aspx.cs">
+      <DependentUpon>deletestaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\deletestaff.aspx.designer.cs">
+      <DependentUpon>deletestaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\feedData.aspx.cs">
+      <DependentUpon>feedData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\feedData.aspx.designer.cs">
+      <DependentUpon>feedData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RegisterCLG.aspx.cs">
+      <DependentUpon>RegisterCLG.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\RegisterCLG.aspx.designer.cs">
+      <DependentUpon>RegisterCLG.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\resetpass.aspx.cs">
+      <DependentUpon>resetpass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\resetpass.aspx.designer.cs">
+      <DependentUpon>resetpass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\teacherlogin.aspx.cs">
+      <DependentUpon>teacherlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\teacherlogin.aspx.designer.cs">
+      <DependentUpon>teacherlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\teacherpage.aspx.cs">
+      <DependentUpon>teacherpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\teacherpage.aspx.designer.cs">
+      <DependentUpon>teacherpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\track_activity.aspx.cs">
+      <DependentUpon>track_activity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\track_activity.aspx.designer.cs">
+      <DependentUpon>track_activity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\updatestaff.aspx.cs">
+      <DependentUpon>updatestaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\updatestaff.aspx.designer.cs">
+      <DependentUpon>updatestaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\adment.Master.cs">
+      <DependentUpon>adment.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Source\adment.Master.designer.cs">
+      <DependentUpon>adment.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Source\adment.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CSS\" />
+    <Folder Include="JS\" />
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49721/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApOGSV7BTi06mY0lz0dsVfgAAAAACAAAAAAAQZgAAAAEAACAAAACDTQxBRrsU9KSSsBs93KkkqxZO+Dc9lcA8FyKV6utB+wAAAAAOgAAAAAIAACAAAAANh8kWXRvXCi0Fo74ucBVUqUNDo0hC74Ho3d1c2tPGaiAAAADYNth4POvBTZ524UjZSWpONA743SL4VWbj2Dm+GFDFyUAAAADXX54THQcdU1LqXV7MbEdqGak2BSNFQgYRGNMzRIRw4S1OZd5Pnve7f+EeBoUuOoOt9goUE03HjMkr+QJ6+rjj</EncryptedPassword>
+    <_PublishTargetUrl>ftp://103.93.16.21/adment.in</_PublishTargetUrl>
+    <History>True|2023-12-29T06:05:24.8274359Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="a.aspx">
+      <publishTime>10/25/2023 15:11:34</publishTime>
+    </File>
+    <File Include="bin/adment.dll">
+      <publishTime>12/29/2023 11:30:18</publishTime>
+    </File>
+    <File Include="bin/adment.pdb">
+      <publishTime>12/29/2023 11:30:18</publishTime>
+    </File>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>12/08/2020 23:05:32</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>02/24/2022 18:50:06</publishTime>
+    </File>
+    <File Include="bin/JWT.dll">
+      <publishTime>05/15/2015 15:15:52</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/18/2021 01:03:34</publishTime>
+    </File>
+    <File Include="bin/Twilio.dll">
+      <publishTime>09/21/2023 13:36:38</publishTime>
+    </File>
+    <File Include="imgdata/addstaff.jpg">
+      <publishTime>10/26/2023 14:32:01</publishTime>
+    </File>
+    <File Include="imgdata/editprof.jpg">
+      <publishTime>10/26/2023 14:32:02</publishTime>
+    </File>
+    <File Include="imgdata/header/admin.png">
+      <publishTime>09/13/2023 19:39:44</publishTime>
+    </File>
+    <File Include="imgdata/header/admission.png">
+      <publishTime>09/13/2023 17:05:19</publishTime>
+    </File>
+    <File Include="imgdata/header/clglogo.png">
+      <publishTime>12/27/2023 22:58:24</publishTime>
+    </File>
+    <File Include="imgdata/header/pexels-miguel-á-padriñán-19670.jpg">
+      <publishTime>09/28/2023 00:00:40</publishTime>
+    </File>
+    <File Include="imgdata/staff/teacher.png">
+      <publishTime>09/19/2023 12:31:11</publishTime>
+    </File>
+    <File Include="imgdata/staff/trac_activity.png">
+      <publishTime>10/26/2023 14:53:32</publishTime>
+    </File>
+    <File Include="imgdata/trac_act.jpg">
+      <publishTime>10/26/2023 14:32:02</publishTime>
+    </File>
+    <File Include="imgdata/update.png">
+      <publishTime>10/26/2023 14:43:17</publishTime>
+    </File>
+    <File Include="Pages/aboutUS.aspx">
+      <publishTime>10/30/2023 11:49:54</publishTime>
+    </File>
+    <File Include="Pages/addStaff.aspx">
+      <publishTime>12/27/2023 18:31:29</publishTime>
+    </File>
+    <File Include="Pages/adminlogon.aspx">
+      <publishTime>11/21/2023 22:29:19</publishTime>
+    </File>
+    <File Include="Pages/adminportal.aspx">
+      <publishTime>10/28/2023 22:08:45</publishTime>
+    </File>
+    <File Include="Pages/broadcastme.aspx">
+      <publishTime>09/30/2023 21:01:44</publishTime>
+    </File>
+    <File Include="Pages/contact.aspx">
+      <publishTime>09/13/2023 19:01:14</publishTime>
+    </File>
+    <File Include="Pages/deletestaff.aspx">
+      <publishTime>10/22/2023 14:07:53</publishTime>
+    </File>
+    <File Include="Pages/feedData.aspx">
+      <publishTime>12/27/2023 22:38:29</publishTime>
+    </File>
+    <File Include="Pages/home.aspx">
+      <publishTime>10/13/2023 19:12:34</publishTime>
+    </File>
+    <File Include="Pages/RegisterCLG.aspx">
+      <publishTime>10/13/2023 15:12:38</publishTime>
+    </File>
+    <File Include="Pages/resetpass.aspx">
+      <publishTime>10/04/2023 22:25:28</publishTime>
+    </File>
+    <File Include="Pages/teacherlogin.aspx">
+      <publishTime>10/13/2023 19:25:18</publishTime>
+    </File>
+    <File Include="Pages/teacherpage.aspx">
+      <publishTime>10/14/2023 22:16:22</publishTime>
+    </File>
+    <File Include="Pages/track_activity.aspx">
+      <publishTime>10/10/2023 17:13:01</publishTime>
+    </File>
+    <File Include="Pages/updatestaff.aspx">
+      <publishTime>10/22/2023 11:58:51</publishTime>
+    </File>
+    <File Include="Source/adment.Master">
+      <publishTime>11/21/2023 23:52:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/29/2023 11:53:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
