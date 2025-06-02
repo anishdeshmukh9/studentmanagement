@@ -1,6 +1,6 @@
 # ADMENT: A Student Record Management System 🚀
 
-![ADMENT Logo](https://via.placeholder.com/150/007bff/ffffff?text=ADMENT)
+![ADMENT Logo](https://www.google.com/imgres?q=student%20management%20profile%20icon&imgurl=https%3A%2F%2Ficons.veryicon.com%2Fpng%2Fo%2Feducation-technology%2Fonline-education-background-management%2Fstudent-management-4.png&imgrefurl=https%3A%2F%2Fwww.veryicon.com%2Ficons%2Feducation-technology%2Fonline-education-background-management%2Fstudent-management-4.html&docid=ceZJ4FnXjAfs1M&tbnid=GkBhLziqDA9OyM&vet=12ahUKEwjvj6fLjNKNAxXFzjgGHQmUHJAQM3oECGUQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwjvj6fLjNKNAxXFzjgGHQmUHJAQM3oECGUQAA)
 
 ## Overview
 
