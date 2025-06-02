@@ -8,17 +8,7 @@ Welcome to **ADMENT (Admission Management)**, a robust and intuitive web-based s
 
 ---
 
-## ✨ Why ADMENT?
 
-In today's fast-paced educational landscape, manual processes are a bottleneck. ADMENT steps in as your ultimate solution to:
-
-- **Streamline Admissions:** Digitize and automate every step of the admission journey.
-- **Enhance Efficiency:** Drastically reduce administrative workload and human error.
-- **Secure Data:** Ensure the integrity and confidentiality of sensitive student information.
-- **Empower Staff:** Provide powerful tools for managing records, tracking activities, and communicating effectively.
-- **Foster Transparency:** Offer clear insights into student data and staff performance.
-
----
 
 ## 🎯 Project Details
 
