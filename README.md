@@ -91,6 +91,7 @@ flowchart TD
 ```
 
 </div>
+
 ## 💻 Technology Stack
 
 Powering ADMENT is a robust and modern technology stack designed for performance, scalability, and maintainability.
@@ -240,12 +241,16 @@ Our commitment to quality is paramount. ADMENT underwent a rigorous and comprehe
 ---
 
 ## 💰 Cost Analysis
+<div align="center">
+
+```mermaid
 pie title Project Cost Distribution
     "Development Effort (66.77 person-months)" : 85
     "Hosting Expenses (Monthly)" : 8
     "Domain Registration" : 5
     "Security & Tools" : 2
-
+```
+</div>
 ### Operational Costs
 | Component | Cost |
 |-----------|------|
