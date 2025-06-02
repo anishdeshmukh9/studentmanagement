@@ -47,7 +47,9 @@ ADMENT isn't just a project; it's a testament to innovation and academic excelle
 ---
 
 ## System Flow Diagram
+<div align="center">
 
+```mermaid
 flowchart TD
     A[User Access] --> B{Login Type}
     
@@ -86,7 +88,9 @@ flowchart TD
     style R fill:#e1bee7
 
 
+```
 
+</div>
 ## 💻 Technology Stack
 
 Powering ADMENT is a robust and modern technology stack designed for performance, scalability, and maintainability.
