@@ -13,8 +13,8 @@ namespace adment.Pages
             System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
 
             // Your Twilio Account SID and Auth Token
-            const string accountSid = "ACd479fbdc22b4d463a780d1f42147fcbe";
-            const string authToken = "24cf48cd9639473c3368537434cb7ee7";
+            const string accountSid = "";
+            const string authToken = "";
 
             // Initialize the Twilio client
             TwilioClient.Init(accountSid, authToken);
@@ -22,13 +22,13 @@ namespace adment.Pages
 
         protected void btnSendWhatsApp_Click(object sender, EventArgs e)
         {
-            var accountSid = "ACd479fbdc22b4d463a780d1f42147fcbe";
-            var authToken = "24cf48cd9639473c3368537434cb7ee7";
+            var accountSid = "";
+            var authToken = "";
             TwilioClient.Init(accountSid, authToken);
 
             var messageOptions = new CreateMessageOptions(
-     new PhoneNumber("+918806149951"));
-            messageOptions.From = new PhoneNumber("+12565790358");
+     new PhoneNumber(""));
+            messageOptions.From = new PhoneNumber("");
 
             messageOptions.Body = "";
             var message = MessageResource.Create(messageOptions);
